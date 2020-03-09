@@ -4,22 +4,23 @@
 } 
 
 body {
-  margin:200px
+  margin-left:265px;
+  margin-right: 265px;
 }
 
 header {
   background-color: grey;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 header img {
   float: left;
-  padding: 20px 0 10px 110px
+  padding: 20px 0 20px 135px
 }
 
 header nav li {
   display: inline-block;
-  padding: 45px 50px 30px 50px;
+  padding: 45px 45px 45px 45px;
   color: lightgrey;
   vertical-align: middle;
 }
@@ -41,42 +42,56 @@ main img:first-of-type {
 
 .side-by-side {
   display: inline-block;
-  margin: 25px 15px;
+  margin: 35px 15px;
   vertical-align: top;
 }
 
-main img:nth-of-type(5) {
+.article-img {
 display: inline-block;
 vertical-align: top;
-margin-right: 30px;
-margin-left: 20px;
+width: 50%;
 }
 
 article {
   display: inline-block;
-  width: 480px;
+  width: 37%;
   height: 300px;
   vertical-align: top;
   text-align: left;
-  /* margin-right: 30px; */
+  margin-right: 60px;
+  margin-left: -30px;
 }
 
 p {
-  overflow: hidden;
-  height: 280px;
+  overflow: scroll;
+  height: 320px;
+  line-height: normal;
+  font-style: oblique;
+}
+
+h3 {
+  font-size: 1.15rem;
 }
 
 button {
   background-color: black;
   color: white;
-  padding: 10px;
- display: block;
+  font-size: 1.15rem;
+  padding: 10px 30px;
+  display: block;
+  border: solid 2px #000;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border: solid 2px #000;
 }
 
 
 footer {
-  
-  margin-top: 40px;
+  margin-top: 30px;
   background-color: grey;
   height: 100px;
 }
