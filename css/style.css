@@ -3,19 +3,24 @@
   font-family: sans-serif;
 } 
 
-body {
+/* body {
   margin-left:265px;
   margin-right: 265px;
+} */
+
+body > header, main, footer {
+  margin: auto;
+  width: 1200px;
 }
 
 header {
   background-color: grey;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 header img {
   float: left;
-  padding: 20px 0 20px 135px
+  padding: 20px 0 20px 120px
 }
 
 header nav li {
@@ -37,7 +42,7 @@ main {
 
 main img:first-of-type {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto 0;
 }
 
 .side-by-side {
@@ -50,6 +55,7 @@ main img:first-of-type {
 display: inline-block;
 vertical-align: top;
 width: 50%;
+margin-top: -30px;
 }
 
 article {
