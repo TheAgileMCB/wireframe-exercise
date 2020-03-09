@@ -15,7 +15,6 @@ body > header, main, footer {
 
 header {
   background-color: grey;
-  /* margin-bottom: 30px; */
 }
 
 header img {
@@ -60,7 +59,7 @@ margin-top: -30px;
 
 article {
   display: inline-block;
-  width: 37%;
+  width: 38%;
   height: 300px;
   vertical-align: top;
   text-align: left;
