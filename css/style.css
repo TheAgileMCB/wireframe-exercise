@@ -1,21 +1,26 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 } 
+
+body {
+  margin:200px
+}
 
 header {
   background-color: grey;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 
 header img {
   float: left;
-  padding: 15px 60px 15px 60px;
+  padding: 20px 0 10px 110px
 }
 
 header nav li {
   display: inline-block;
-  padding: 45px 45px 30px 45px;
-  color: #fff;
+  padding: 45px 50px 30px 50px;
+  color: lightgrey;
   vertical-align: middle;
 }
 
@@ -31,22 +36,47 @@ main {
 
 main img:first-of-type {
   display: block;
-  margin: 15px auto;
+  margin: 0 auto;
 }
 
 .side-by-side {
   display: inline-block;
-  margin: 15px;
+  margin: 25px 15px;
+  vertical-align: top;
+}
+
+main img:nth-of-type(5) {
+display: inline-block;
+vertical-align: top;
+margin-right: 30px;
+margin-left: 20px;
 }
 
 article {
   display: inline-block;
   width: 480px;
-  height: 360px;
+  height: 300px;
+  vertical-align: top;
+  text-align: left;
+  /* margin-right: 30px; */
+}
+
+p {
   overflow: hidden;
+  height: 280px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+ display: block;
 }
 
 
 footer {
+  
+  margin-top: 40px;
   background-color: grey;
+  height: 100px;
 }
