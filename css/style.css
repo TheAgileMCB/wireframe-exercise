@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+} 
+
+header {
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+header img {
+  float: left;
+  padding: 15px 60px 15px 60px;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 45px 45px 30px 45px;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.clearfix::after {
+  content: "";
+  clear:both;
+  display: table;
+}
+
+main {
+  text-align: center;
+}
+
+main img:first-of-type {
+  display: block;
+  margin: 15px auto;
+}
+
+.side-by-side {
+  display: inline-block;
+  margin: 15px;
+}
+
+article {
+  display: inline-block;
+  width: 480px;
+  height: 360px;
+  overflow: hidden;
+}
+
+
+footer {
+  background-color: grey;
+}
